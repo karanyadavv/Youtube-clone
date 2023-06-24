@@ -1,0 +1,163 @@
+.header{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    z-index: 100;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 100px;
+    max-width: 585px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box{
+    height: 35px;
+    width: 0;
+    flex: 1;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    padding-left: 14px;
+    font-size: 15px;
+}
+
+.search-box::placeholder{
+    font-size: 15px;
+}
+
+.search-button{
+    height: 39px;
+    width: 60px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -1px;
+    margin-right: 8px;
+    
+}
+
+.search-icon{
+    height: 23px;
+    
+}
+
+.search-button,
+.voice-search,
+.upload-icon-container,
+.notifications-icon-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button .tooltip,
+.voice-search .tooltip,
+.upload-icon-container .tooltip,
+.notifications-icon-container .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 8px 6px 8px 6px;
+    bottom: -50px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip{
+    opacity: 1;
+}
+
+.voice-search{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.voice-search-icon{
+    height: 25px;
+
+}
+
+.right-section{
+    width: 149px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    flex-shrink: 0;
+}
+
+.upload-icon{
+    height: 24px;
+}
+
+.notifications-icon-container{
+    position: relative;
+}
+
+.notifications-count{
+    position: absolute;
+    font-size: 11px;
+    top: -1.7px;
+    right: -4.7px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+}
+
+.notifications-icon{
+    height: 24px;
+}
+
+.current-user-pic{
+    height: 32px;
+    border-radius: 16px;
+}

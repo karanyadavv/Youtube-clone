@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="icon" href="assets/icons/favicon.png">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="assets/icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="assets/icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input type="text" class="search-box" placeholder="Search" />
+                <button class="search-button">
+                    <img class="search-icon" src="assets/icons/search.svg" />
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search">
+                    <img class="voice-search-icon" src="assets/icons/voice-search-icon.svg" />
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="assets/icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="assets/icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-pic" src="assets/icons/my-channel.jpg">
+
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="assets/icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="assets/icons/shorts.svg">
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="assets/icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="assets/icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                            <img class="thumbnail" src="assets/images/thumbnail-1.webp" />
+                        </a>
+                        <div class="video-time">14:20</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/mkbhd">
+                                <img class="profile-pic" src="assets/images/channel-1.jpg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/mkbhd">
+                                <p class="video-author">Marques Brownlee</p>
+                            </a>
+                            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                            <img class="thumbnail" src="assets/images/thumbnail-2.webp" />
+                        </a>
+                        <div class="video-time">8:22</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/markiplier">
+                                <img class="profile-pic" src="assets/images/channel-2.jpeg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                                <p class="video-title">Try Not To Laugh Challenge #9</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/markiplier">
+                                <p class="video-author">Markiplier</p>
+                            </a>
+                            <p class="video-stats">19M views &#183; 4 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                            <img class="thumbnail" src="assets/images/thumbnail-3.webp" />
+                        </a>
+                        <div class="video-time">9:13</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/user/SSSniperWolf">
+                                <img class="profile-pic" src="assets/images/channel-3.jpeg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                                <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                            </a>
+                            <a href="https://www.youtube.com/user/SSSniperWolf">
+                                <p class="video-author">SSSniperWolf</p>
+                            </a>
+                            <p class="video-stats">12M views &#183; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                            <img class="thumbnail" src="assets/images/thumbnail-4.webp" />
+                        </a>
+                        <div class="video-time">22:09</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/veritasium">
+                                <img class="profile-pic" src="assets/images/channel-4.jpeg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                                <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/veritasium">
+                                <p class="video-author">Veritasium</p>
+                            </a>
+                            <p class="video-stats">18M views &#183; 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                            <img class="thumbnail" src="assets/images/thumbnail-5.webp" />
+                        </a>
+                        <div class="video-time">11:17</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/CSDojo">
+                                <img class="profile-pic" src="assets/images/channel-5.jpeg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                                <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/CSDojo">
+                                <p class="video-author">CS Dojo</p>
+                            </a>
+                            <p class="video-stats">519K views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=ZRLcZTr6Z0Q">
+                            <img class="thumbnail" src="assets/images/thumbnail-6.webp" />
+                        </a>
+                        <div class="video-time">8:19</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@Nerdwriter1">
+                                <img class="profile-pic" src="assets/images/channel-6-7.jpg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=ZRLcZTr6Z0Q">
+                                <p class="video-title">Shakespeare's Sonnet 116 Is Not What It Seems</p>
+                            </a>
+                            <a href="https://www.youtube.com/@Nerdwriter1">
+                                <p class="video-author">Nerdwriter1</p>
+                            </a>
+                            <p class="video-stats">2.1 lakh views &#183; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=-H1c7C-hyAk">
+                            <img class="thumbnail" src="assets/images/thumbnail-7.webp" />
+                        </a>
+                        <div class="video-time">7:35</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@Nerdwriter1">
+                                <img class="profile-pic" src="assets/images/channel-6-7.jpg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=-H1c7C-hyAk">
+                                <p class="video-title">How Postwar Italy Created The Paparazzi</p>
+                            </a>
+                            <a href="https://www.youtube.com/@Nerdwriter1">
+                                <p class="video-author">Nerdwriter1</p>
+                            </a>
+                            <p class="video-stats">2.2 lakh views &#183; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=pXDx6DjNLDU">
+                            <img class="thumbnail" src="assets/images/thumbnail-8.webp" />
+                        </a>
+                        <div class="video-time">11:44</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@MarkRober">
+                                <img class="profile-pic" src="assets/images/channel-8.jpg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=pXDx6DjNLDU">
+                                <p class="video-title">This Robot Eats Trash #TeamSeas</p>
+                            </a>
+                            <a href="https://www.youtube.com/@MarkRober">
+                                <p class="video-author">Mark Rober</p>
+                            </a>
+                            <p class="video-stats">3.7 crore views &#183; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=1Rx_p3NW7gQ">
+                            <img class="thumbnail" src="assets/images/thumbnail-9.webp" />
+                        </a>
+                        <div class="video-time">4:54</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@boburnham">
+                                <img class="profile-pic" src="assets/images/channel-9.jpg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=1Rx_p3NW7gQ">
+                                <p class="video-title">All Eyes On Me - Bo Burnham (from "Inside" - album out now)</p>
+                            </a>
+                            <a href="https://www.youtube.com/@boburnham">
+                                <p class="video-author">boburnham</p>
+                            </a>
+                            <p class="video-stats">3.5 crore views &#183; 2 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=r_0JjYUe5jo">
+                            <img class="thumbnail" src="assets/images/thumbnail-10.webp" />
+                        </a>
+                        <div class="video-time">4:27</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/@eminem">
+                                <img class="profile-pic" src="assets/images/channel-10.jpg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=r_0JjYUe5jo">
+                                <p class="video-title">Eminem - Godzilla ft. Juice WRLD (Directed by Cole Bennett)</p>
+                            </a>
+                            <a href="https://www.youtube.com/@eminem">
+                                <p class="video-author">EminemMusic</p>
+                            </a>
+                            <p class="video-stats">5.7 crore views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                            <img class="thumbnail" src="assets/images/thumbnail-11.webp" />
+                        </a>
+                        <div class="video-time">13:17</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                                <img class="profile-pic" src="assets/images/channel-11.jpeg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                                <p class="video-title">The SECRET to Super Human STRENGTH</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                                <p class="video-author">ThenX</p>
+                            </a>
+                            <p class="video-stats">20M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+                            <img class="thumbnail" src="assets/images/thumbnail-12.webp" />
+                        </a>
+                        <div class="video-time">4:51</div>
+                    </div>
+                    <div class="video-info-block-grid">
+                        <div class="channel-pic">
+                            <a href="https://www.youtube.com/teded">
+                                <img class="profile-pic" src="assets/images/channel-12.jpeg" />
+                            </a>
+                        </div>
+                        <div class="video-info">
+                            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+                                <p class="video-title">What would happen if you didn't drink water? - Mia Nacamulli</p>
+                            </a>
+                            <a href="https://www.youtube.com/teded">
+                                <p class="video-author">TED-Ed</p>
+                            </a>
+                            <p class="video-stats">12M views &#183; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
